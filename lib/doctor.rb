@@ -7,4 +7,8 @@ class Doctor
 
   end
 
+  def add_appointment
+    
+  end
+
 end

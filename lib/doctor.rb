@@ -17,7 +17,9 @@ class Doctor
   end
 
   def patients
-    
+    self.appointments.collect do |song|
+      song.genre
+    end
   end
 
 end

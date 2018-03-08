@@ -13,4 +13,11 @@ class Patient
     @appointments
 
   end
+
+  def doctors
+    self.songs.collect do |song|
+      song.genre
+    end
+
+  end
 end

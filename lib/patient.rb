@@ -15,8 +15,8 @@ class Patient
   end
 
   def doctors
-    self.songs.collect do |song|
-      song.genre
+    self.appointments.collect do |appointment|
+      appointment.doctor
     end
 
   end

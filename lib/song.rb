@@ -1,5 +1,5 @@
 class Song
-  def initialize
+  def initialize(name, genre)
 
   end
 end
